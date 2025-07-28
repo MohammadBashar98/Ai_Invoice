@@ -1,0 +1,440 @@
+text	label
+Invoice No.	 invoice_number
+Invoice Number	 invoice_number
+Invoice #	 invoice_number
+INV-000123	 invoice_number
+INV 000124	 invoice_number
+INV_2023_00125	 invoice_number
+INV000126	 invoice_number
+INVOICE-2023-127	 invoice_number
+"Bill No.	"	 invoice_number
+"Bill Number: 99812	"	 invoice_number
+"Date: 2023-07-28	"	 date
+"7/28/2023	"	 date
+"28.07.2023	"	 date
+"7/28/2023	"	 date
+"Issued: 28/07/23	"	 date
+"Date Issued: 28 July 2023	"	 date
+"28-Jul	"	 date
+"28th July 2023	"	 date
+"Date 28.07.23	"	 date
+"Dt: 2023/07/28	"	 date
+"Total: $145.00	"	 total
+"Amount Due: 145.00	"	 total
+"Total Amount: 199.99	"	  total
+"TOTAL DUE: $88.80	"	 total
+"$123.45 	"	 total
+"Total Payable: 300.50	"	 total
+"Payable: 450.00	"	 total
+"Balance Due: 199.00	"	 total
+"Total 76.50	"	 total
+"Amount: $1000.00	"	 total
+"VAT 20%	"	 tax
+"Tax: $25.00	"	 tax
+"TAX 15%	"	 tax
+"GST: 18.00	"	 tax
+"VAT Amount: 30.00	"	 tax
+"IVA: 12.50	"	 tax
+"MwSt: 19.00	"	 tax
+"TVA: 8.5	"	 tax
+"KDV: 13.00	"	 tax
+"Sales Tax: $22.00	"	 tax
+"Chips	"	 description
+"Soda	"	 description
+"Service Fee	"	 description
+"Graphic Design	"	 description
+"Printing	"	 description
+"Consulting	"	 description
+"Packaging	"	 description
+"Delivery Charge	"	 description
+"Maintenance	"	 description
+"Cloud Hosting	"	 description
+"AI Model Training	"	 description
+"3D Rendering	"	 description
+"1	"	 quantity
+"3	"	 quantity
+"10	"	 quantity
+"100	"	 quantity
+"5	"	 quantity
+"2	"	 quantity
+"12	"	 quantity
+"20	"	 quantity
+"6	"	 quantity
+"8	"	 quantity
+"100	"	 unit_price
+"50	"	 unit_price
+"15.25	"	 unit_price
+"200.99	"	 unit_price
+"120	"	 unit_price
+"5.5	"	 unit_price
+"3.45	"	 unit_price
+"80	"	 unit_price
+"99.9	"	 unit_price
+"1.25	"	 unit_price
+"100	"	 amount
+"150	"	 amount
+"1000	"	 amount
+"305.75	"	 amount
+"22.5	"	 amount
+"1.25	"	 amount
+"76.8	"	 amount
+"300	"	 amount
+"9.99	"	 amount
+"500	"	 amount
+"Acme Corporation	"	 vendor_name
+"XYZ GmbH	"	 vendor_name
+"Globex LLC	"	 vendor_name
+"Hooli Ltd.	"	 vendor_name
+"Wayne Enterprises	"	 vendor_name
+"Stark Industries	"	 vendor_name
+"Aperture Science	"	 vendor_name
+"Cyberdyne Systems	"	 vendor_name
+"Sinopec Group	"	 vendor_name
+"Ã–ztÃ¼rk Ticaret	"	 vendor_name
+"Pay before: 2023-08-15	"	 due_date
+"Due by 15/08/2023	"	 due_date
+"Due Date: Aug 15 2023	"	 due_date
+"Deadline: 2023/08/15	"	 due_date
+"15-Aug-23	"	 due_date
+"Due 15.08.23	"	 due_date
+"Pay by: 08/15/23	"	 due_date
+"Due: 2023-08-15	"	 due_date
+"Last Date: 15-08-2023	"	 due_date
+"Payment Due: August 15 2023	"	 due_date
+"USD	"	 currency
+"EUR	"	 currency
+"TRY	"	 currency
+"GBP	"	 currency
+"â‚º	"	 currency
+"$	"	 currency
+"â‚¬	"	 currency
+"Â£	"	 currency
+"US Dollars	"	 currency
+"Turkish Lira	"	 currency
+"Inv. No.	"	 invoice_number
+"Invoice Num	"	 invoice_number
+"Inv #12345	"	 invoice_number
+"BILL-87991	"	 invoice_number
+"Invoice Code: A-32455	"	 invoice_number
+"INV 987654	"	 invoice_number
+"InvoiceID 78452	"	 invoice_number
+"Ref No: R-1002	"	 invoice_number
+"FATURA NO: 3030	"	 invoice_number
+"Inv# AB-001	"	 invoice_number
+"INVOICE AB002	"	 invoice_number
+"Bill ID 2023-099	"	 invoice_number
+"B#20230901	"	 invoice_number
+"BILL REF: 321-AA	"	 invoice_number
+"INVC20230815	"	 invoice_number
+"Number: INV9000	"	 invoice_number
+"Invoice 2023_0041	"	 invoice_number
+"BILLING NO: 8844	"	 invoice_number
+"Facture No. 8833	"	 invoice_number
+"Nota Fiscal: NF-2211	"	 invoice_number
+"Date: 01-08-2023	"	 date
+"8/1/2023	"	 date
+"2023.08.01	"	 date
+"01.Aug.2023	"	 date
+"1-Aug-23	"	 date
+"01st August 2023	"	 date
+"Dated 01.08.2023	"	 date
+"1/8/2023	"	 date
+"Aug. 1st 2023	"	 date
+"Issue Date: 1.08.23	"	 date
+"5/5/2003	"	 date
+"Dt: 2023-08-01	"	 date
+"01 08 2023	"	 date
+"01 A?ustos 2023	"	 date
+"Issued on 01 Aug	"	 date
+"Issued: Aug 1 2023	"	 date
+"10/12/2010	"	 date
+"20230801	"	 date
+"D: 01-08-23	"	 date
+"Date Issued: 1st August	"	 date
+"Borc: 70.00	"	 total
+"Amount Owed: 100.50	"	 total
+"Total (TL): ?300	"	 total
+"TOTAL USD: 349.99	"	 total
+"TOTAL: $0.00	"	 total
+"Amount Due: 1100.00	"	 total
+"Final Amount: 250.00	"	 total
+"Payable: 450	"	 total
+"TOTAL DUE INVOICE: 950.00	"	 total
+"Total: 1000.00	"	 total
+"Gross Total: 810.30	"	 total
+"Pay This Amount: 133.00	"	 total
+"Bill Total: $900.50	"	 total
+"Amount Total: 180.00	"	 total
+"TOTAL TO PAY: 75.25	"	 total
+"T: 220.10	"	 total
+"Grand Total: 550.90	"	 total
+"TOTAL = $150	"	 total
+"Total Payable: 300.00	"	 total
+"Total Due: $200.00	"	 total
+"Tax Incl.: 15.00	"	 tax
+"Impuesto: 7.5	"	 tax
+"TAXES INCLUDED: 25.00	"	 tax
+"TOTAL TAX: 88.00	"	 tax
+"Tax (5%): $3.50	"	 tax
+"GST Applied: 13.00	"	 tax
+"TAX-ADJ 6%	"	 tax
+"Duty: $10.00	"	 tax
+"Taxed: 20%	"	 tax
+"TVA: €11.00	"	 tax
+"Sales Tax: $5.50	"	 tax
+"TAXABLE 7%	"	 tax
+"KDV: ?12.00	"	 tax
+"Tax Amount: 27.00	"	 tax
+"MwSt 19%	"	 tax
+"VAT: 16.50	"	 tax
+"IVA $14.00	"	 tax
+"USB Cable	"	 description
+"Internet Plan	"	 description
+"Technical Service	"	 description
+"Repair Fee	"	 description
+"Baklava	"	 description
+"Monthly Hosting	"	 description
+"AI Consulting	"	 description
+"Cloud Processing	"	 description
+"Toner Cartridge	"	 description
+"Software Subscription	"	 description
+"Server Fee	"	 description
+"Notebook x200	"	 description
+"GPU Hours	"	 description
+"Logistics	"	 description
+"Cleaning Service	"	 description
+"Electricity Bill	"	 description
+"Tea & Coffee	"	 description
+"Hardware Rental	"	 description
+"Invoice Management	"	 description
+"Freight Service	"	 description
+"Design Fee	"	 description
+"Marketing Fee	"	 description
+"Router	"	 description
+"Display Stand	"	 description
+"Printing Service	"	 description
+"1	"	 quantity
+"2	"	 quantity
+"5	"	 quantity
+"10	"	 quantity
+"20	"	 quantity
+"50	"	 quantity
+"3	"	 quantity
+"7	"	 quantity
+"100	"	 quantity
+"4	"	 quantity
+"12	"	 quantity
+"25	"	 quantity
+"6	"	 quantity
+"11	"	 quantity
+"9	"	 quantity
+"0.5	"	 quantity
+"0.25	"	 quantity
+"0.75	"	 quantity
+"15	"	 quantity
+"18	"	 quantity
+"20	"	 unit_price
+"15.5	"	 unit_price
+"75.25	"	 unit_price
+"5	"	 unit_price
+"199.99	"	 unit_price
+"30	"	 unit_price
+"10.1	"	 unit_price
+"0.99	"	 unit_price
+"6.75	"	 unit_price
+"45	"	 unit_price
+"100	"	 unit_price
+"8.5	"	 unit_price
+"12.75	"	 unit_price
+"99.9	"	 unit_price
+"1	"	 unit_price
+"0.45	"	 unit_price
+"120	"	 unit_price
+"300	"	 unit_price
+"150	"	 unit_price
+"200	"	 unit_price
+"100	"	 amount
+"150	"	 amount
+"900	"	 amount
+"20.25	"	 amount
+"302.5	"	 amount
+"65	"	 amount
+"1250	"	 amount
+"30	"	 amount
+"180	"	 amount
+"320	"	 amount
+"89.9	"	 amount
+"700	"	 amount
+"80	"	 amount
+"999.99	"	 amount
+"560	"	 amount
+"444	"	 amount
+"75.5	"	 amount
+"25	"	 amount
+"10	"	 amount
+"1500	"	 amount
+"Tesla Inc	"	 vendor_name
+"BetaWorks Ltd	"	 vendor_name
+"Otto GmbH	"	 vendor_name
+"Y?ld?z A.?.	"	 vendor_name
+"Hansen & Co	"	 vendor_name
+"Vega Systems	"	 vendor_name
+"Mavi Deniz Ltd	"	 vendor_name
+"Nile Tech	"	 vendor_name
+"Essen Electronics	"	 vendor_name
+"SkyNet Systems	"	 vendor_name
+"Quantum AI	"	 vendor_name
+"Özdemir Yaz?l?m	"	 vendor_name
+"ByteFuel	"	 vendor_name
+"MacroSoft	"	 vendor_name
+"Zenith Tech	"	 vendor_name
+"Creative Inc.	"	 vendor_name
+"Ege Teknik	"	 vendor_name
+"Marble & Co.	"	 vendor_name
+"Omega Works	"	 vendor_name
+"DigiNova	"	 vendor_name
+"Due: 2023-09-01	"	 due_date
+"Due 01.09.2023	"	 due_date
+"Payment Due: 01/09/2023	"	 due_date
+"1-Sep-23	"	 due_date
+"Deadline: Sept 1 2023	"	 due_date
+"Due Date: September 1st	"	 due_date
+"Ödeme Tarihi: 01-09-2023	"	 due_date
+"Last Payment Date: 1.09.23	"	 due_date
+"Biti? Tarihi: 01.09.23	"	 due_date
+"Son Ödeme: 2023-09-01	"	 due_date
+"DUE BY: 2023/09/01	"	 due_date
+"1st of September 2023	"	 due_date
+"PAY BY: 09-01-2023	"	 due_date
+"DUE: 20230901	"	 due_date
+"Final Date: Sept 1st	"	 due_date
+"Ödeme Süresi: 1 Eylül 2023	"	 due_date
+"1 Eyl 2023	"	 due_date
+"PAYMENT DEADLINE: 2023-09-01	"	 due_date
+"Payment Ends: Sept 01	"	 due_date
+"Last Day: 01.09.2023	"	 due_date
+"USD	"	 currency
+"EUR	"	 currency
+"TRY	"	 currency
+"GBP	"	 currency
+"?	"	 currency
+"€	"	 currency
+"¥	"	 currency
+"CNY	"	 currency
+"JPY	"	 currency
+"USD $	"	 currency
+"US$	"	 currency
+"?	"	 currency
+"Dollar	"	 currency
+"Euro	"	 currency
+"Türk Liras?	"	 currency
+"Lira	"	 currency
+"CAD	"	 currency
+"AUD	"	 currency
+"HKD	"	 currency
+"CHF	"	 currency
+"This is a computer generated invoice	"	 junk
+"Thank you for your business!	"	 junk
+"Page 1 of 1	"	 junk
+"Visit our website: www.vendor.com	"	 junk
+"Terms and conditions apply	"	 junk
+"No signature required	"	 junk
+"For customer service call 123-456	"	 junk
+"Scanned by OCR Engine 3.2	"	 junk
+"---- End of Invoice ----	"	 junk
+"Scan completed on: 2023-08-01	"	 junk
+"Do not reply to this email	"	 junk
+"Payment received	"	 junk
+"Invoice processed	"	 junk
+"Subtotal includes all taxes	"	 junk
+"TOTAL AMOUNT: See below	"	 junk
+"Invoice created using XYZ System	"	 junk
+"Prepared by accounting bot	"	 junk
+"Please retain for your records	"	 junk
+"Duplicate Copy	"	 junk
+"Invoice summary follows	"	 junk
+"---	"	 junk
+"======	"	 junk
+"Total cost to be calculated manually	"	 junk
+"Refer to page 2 for continuation	"	 junk
+"Customer copy only	"	 junk
+"For internal use only	"	 junk
+"Not a valid tax invoice	"	 junk
+"Invoice powered by ABC Systems	"	 junk
+"Please contact support for queries	"	 junk
+"** No VAT breakdown **	"	 junk
+"INVOICE PDF GENERATED	"	 junk
+"Page 2 will follow	"	 junk
+"Company Registration #: 112233	"	 junk
+"Fax: 012-345-6789	"	 junk
+"Document printed: 28/07/2023 11:23	"	 junk
+"System Generated	"	 junk
+"Electronic Copy	"	 junk
+"Keep this invoice safe	"	 junk
+"Amount shown may vary	"	 junk
+"Refer to original invoice	"	 junk
+"No refund on this item	"	 junk
+"Print date: 07-28-2023	"	 junk
+"Email: info@company.com	"	 junk
+"Not payable by customer	"	 junk
+"This copy is for your records	"	 junk
+"*Prices are subject to change*	"	 junk
+"Tax invoice only if signed	"	 junk
+"Customer Service: 800-555-INVOICE	"	 junk
+"No action needed	"	 junk
+"Authorized Reseller	"	 junk
+"Final page of invoice	"	 junk
+"Generated on behalf of client	"	 junk
+"Auto-generated for demo	"	 junk
+"Notes:	"	 junk
+"-- nothing follows --	"	 junk
+"*** Do Not Print ***	"	 junk
+"Shipping may apply	"	 junk
+"Values in USD	"	 junk
+"Contact your rep for more info	"	 junk
+"Customer portal: portal.company.com	"	 junk
+"Generated by finance.bot	"	 junk
+"No items listed	"	 junk
+"Pending approval	"	 junk
+"Reprint	"	 junk
+"Original Copy	"	 junk
+"Security watermark removed	"	 junk
+"End of Document	"	 junk
+"Technical Support: support@vendor.com	"	 junk
+"Invoice verified by AI system	"	 junk
+"All values inclusive of VAT	"	 junk
+"Not a legal invoice	"	 junk
+"PDF generated: 2023-07-28	"	 junk
+"All trademarks are property of owners	"	 junk
+"Invoice archive #45534	"	 junk
+"Sync completed successfully	"	 junk
+"OCR Read Complete	"	 junk
+"-----------------------------------	"	 junk
+"******************************************	"	 junk
+"Document hash: ab23cf88	"	 junk
+"For audit purposes only	"	 junk
+"No financial value	"	 junk
+"Auto email sent from system	"	 junk
+"Ref: 45/23/NZ/	"	 junk
+"Metadata: {id: 1234}	"	 junk
+"Generated using Invoicer Pro	"	 junk
+"Tracking ID: TCK1234567	"	 junk
+"Web: www.acme-corp.com	"	 junk
+"Downloadable via client portal	"	 junk
+"Backup Copy	"	 junk
+"System-verified	"	 junk
+"Please note: This is not a bill	"	 junk
+"For demonstration only	"	 junk
+"Electronic invoice version	"	 junk
+"--- Page Footer ---	"	 junk
+"To be archived	"	 junk
+"Processed by backend service	"	 junk
+"Regenerated invoice copy	"	 junk
+"Delivered by email	"	 junk
+"Data extracted from archive	"	 junk
+"PDF created automatically	"	 junk
+"This is not a duplicate	"	 junk
+"View online: https://invoice.link/xyz	"	 junk
+"Not intended for resale	"	 junk
+CPB SOFTWARE (GERMANY) GMBH	 vendor_name
+01-02.2024,date
