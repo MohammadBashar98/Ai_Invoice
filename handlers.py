@@ -1,11 +1,39 @@
 import fitz
 import streamlit as st
 import csv
+import pandas as pd
 from collections import defaultdict
 from ocr_utils import prepare_image_for_ocr, extract_text_from_image
 from model import predict_field
 
 FEEDBACK_CSV = "feedback.csv"
+
+
+
+def download_structured_csv(structured_data, filename="structured_invoice.csv"):
+    """
+    Creates a downloadable CSV from structured data, excluding 'junk' label.
+    """
+    flat_data = {
+        label: "\n".join(lines)
+        for label, lines in structured_data.items()
+        if label.lower() != "junk"
+    }
+
+    if not flat_data:
+        st.info("No valid structured data to download.")
+        return
+
+    df = pd.DataFrame([flat_data])
+    csv_data = df.to_csv(index=False).encode("utf-8")
+
+    st.download_button(
+        label="📥 Download Structured Results as CSV",
+        data=csv_data,
+        file_name=filename,
+        mime="text/csv"
+    )
+
 
 def handle_upload(uploaded_file):
     file_bytes = uploaded_file.read()
@@ -47,7 +75,7 @@ def run_ocr_and_predict(images, model):
     if structured_data:
         st.subheader("🤖 Field Detection (ML Model)")
         st.json({k: v for k, v in structured_data.items() if v})
-
+    
     return extracted_texts, structured_data
 
 
