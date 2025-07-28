@@ -19,7 +19,7 @@ A smart OCR-powered invoice parser built using **Streamlit**, **EasyOCR**, and *
 
 ## ✍️ Feedback & Model Retraining
 
-When users submit feedback by editing the extracted text and assigning a label, the results are saved to a local CSV file (`Book2.csv`). Each row contains:
+When users submit feedback by editing the extracted text and assigning a label, the results are saved to a local CSV file (`feedback.csv`). Each row contains:
 - The corrected text
 - The correct label (e.g., `InvoiceNumber`, `Date`, `Total`, or `junk`)
 
