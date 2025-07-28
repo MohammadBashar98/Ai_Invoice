@@ -11,28 +11,28 @@ FEEDBACK_CSV = "feedback.csv"
 
 
 def download_structured_csv(structured_data, filename="structured_invoice.csv"):
-    """
-    Creates a downloadable CSV from structured data, excluding 'junk' label.
-    """
-    flat_data = {
-        label: "\n".join(lines)
-        for label, lines in structured_data.items()
-        if label.lower() != "junk"
-    }
+    rows = []
+    for label, lines in structured_data.items():
+        if label.lower() == "junk":
+            continue
+        for line in lines:
+            rows.append({"Label": label, "Text": line})
 
-    if not flat_data:
+    if not rows:
         st.info("No valid structured data to download.")
         return
 
-    df = pd.DataFrame([flat_data])
+    df = pd.DataFrame(rows)
     csv_data = df.to_csv(index=False).encode("utf-8")
 
     st.download_button(
         label="📥 Download Structured Results as CSV",
         data=csv_data,
         file_name=filename,
-        mime="text/csv"
+        mime="text/csv",
+        key="download-structured-csv_{filename}",
     )
+
 
 
 def handle_upload(uploaded_file):
